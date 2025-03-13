@@ -12,13 +12,13 @@ import { AnimatedTitle } from "@/components/animated-title"
 
 export default function HomeCopy() {
   return (
-    <div className="flex min-h-screen w-full flex-col">
+    <div className="flex min-h-screen flex-col">
       <SiteHeader />
-      <main className="flex w-full flex-1 flex-col">
+      <main className="flex-1">
         {/* Hero Section */}
-        <section className="relative flex min-h-screen w-full items-center justify-center overflow-hidden bg-black text-white">
+        <section className="relative flex min-h-screen items-center justify-center overflow-hidden bg-black text-white">
           <WaveBackground />
-          <div className="container relative z-10 mx-auto w-full px-4 py-32 md:px-6 lg:px-8">
+          <div className="container relative z-10 mx-auto px-4 pt-32 pb-24 sm:px-6 lg:px-8">
             <div className="mx-auto max-w-4xl text-center">
               <AnimatedText
                 text="Where brands evolve into legacies"
@@ -50,9 +50,9 @@ export default function HomeCopy() {
         </section>
 
         {/* About Section */}
-        <AnimatedSection className="w-full py-24 md:py-32">
-          <div className="container mx-auto w-full px-4 md:px-6 lg:px-8">
-            <div className="grid gap-12 md:grid-cols-2 md:gap-16 lg:items-center">
+        <AnimatedSection className="py-24 md:py-32">
+          <div className="container">
+            <div className="grid gap-12 md:grid-cols-2 md:gap-16">
               <div>
                 <AnimatedTitle className="mb-6 text-3xl font-bold leading-tight tracking-tighter sm:text-4xl md:text-5xl">
                   Redefining branding for the digital age
@@ -78,8 +78,8 @@ export default function HomeCopy() {
         </AnimatedSection>
 
         {/* Services Section */}
-        <AnimatedSection className="w-full bg-muted py-24 md:py-32">
-          <div className="container mx-auto w-full px-4 md:px-6 lg:px-8">
+        <AnimatedSection className="bg-muted py-24 md:py-32">
+          <div className="container">
             <div className="mx-auto max-w-3xl text-center">
               <AnimatedTitle className="mb-6 text-3xl font-bold leading-tight tracking-tighter sm:text-4xl md:text-5xl">
                 Premium branding solutions
@@ -117,8 +117,8 @@ export default function HomeCopy() {
         </AnimatedSection>
 
         {/* Portfolio Section */}
-        <AnimatedSection className="w-full py-24 md:py-32">
-          <div className="container mx-auto w-full px-4 md:px-6 lg:px-8">
+        <AnimatedSection className="py-24 md:py-32">
+          <div className="container">
             <div className="mx-auto max-w-3xl text-center">
               <AnimatedTitle className="mb-6 text-3xl font-bold leading-tight tracking-tighter sm:text-4xl md:text-5xl">
                 Featured work
@@ -157,8 +157,8 @@ export default function HomeCopy() {
         </AnimatedSection>
 
         {/* CTA Section */}
-        <AnimatedSection className="w-full bg-black py-24 text-white md:py-32">
-          <div className="container mx-auto w-full px-4 md:px-6 lg:px-8">
+        <AnimatedSection className="bg-black py-24 text-white md:py-32">
+          <div className="container">
             <div className="mx-auto max-w-3xl text-center">
               <AnimatedTitle className="mb-6 text-3xl font-bold leading-tight tracking-tighter sm:text-4xl md:text-5xl">
                 Ready to transform your brand?
